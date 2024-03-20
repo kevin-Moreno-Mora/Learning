@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div{
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    width: 250px;
+    height: 400px;
+    font-size: 18px;
+    font-style: italic;
+    border: 2px 2px;
+    padding: 15px;
+    color: rgb(233, 233, 233);
+    background-color: black;
+    resize: none;
+    margin: 20px 20px;
+}
+
+.campo-texto{
+    box-shadow: 2px 2px 10px 10px rgb(201, 248, 32) 
+}
+
+.mensaje{
+    box-shadow: 2px 2px 10px 10px rgb(86, 49, 253)   
+}
+
+button{
+    font-size: 15px;
+    font-style: italic;
+    padding: 2% 30px;
+    background-color: black;
+    margin: 15px 15px;
+    color: rgb(71, 243, 37);
+    box-shadow: 2px 2px 10px 10px rgb(71, 243, 37) 
+}
+
+:disabled{
+ color: none;
+ opacity: 0%;
+ box-shadow: none;
+}
+
+.btnEncriptar{
+    color: rgb(153, 16, 112);
+    box-shadow: 2px 2px 10px 10px rgb(153, 16, 112)   
+}
+
+.btnDesencriptar{
+    color: rgb(35, 224, 215);
+    box-shadow: 2px 2px 10px 10px rgb(35, 224, 215)  
+}
+
+.btnCopiar{
+    color: rgb(252, 27, 27);
+    box-shadow: 2px 2px 10px 10px rgb(252, 27, 27)   
+}

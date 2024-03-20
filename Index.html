@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    
+    <main class="main">
+        <section class ="formulario"> 
+            <div class="contenedor">
+                <textarea id="texto-encriptado" class="campo-texto"></textarea>
+                <textarea id="campo-mensaje" class="mensaje" ></textarea>
+            </div>
+
+             <div class="btn">
+                <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button id="trasladar" class="btnTrasladar" onclick="btnTrasladar()" disabled>Trasladar</button>
+                <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="logica.js"></script>
+</body>
+</html>
